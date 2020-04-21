@@ -30,7 +30,6 @@ def transfer(request):
         with open("output/content.jpg", "rb") as f:  # 转为二进制格式
             base64_data = base64.b64encode(f.read())  # 使用base64进行加密
             base64_data = 'data:image/jpeg;base64,'+str(base64_data)[2:]
-        print(base64_data)
         return HttpResponse(json.dumps({'base64_data':base64_data}))
 
 
