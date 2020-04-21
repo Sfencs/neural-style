@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Alke</title>
+	<meta name="description"  content="Professional Creative Template" />
+	<meta name="author" content="IG Design">
+	<meta name="keywords"  content="ig design, website, design, html5, css3, jquery, creative, clean, animated, portfolio, blog, one-page, multi-page, corporate, business," />
+	<meta property="og:title" content="Professional Creative Template" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:image:width" content="470" />
+	<meta property="og:image:height" content="246" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="Professional Creative Template" />
+	
+
+	
+	
+	
+	
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#212121"/>
+    <meta name="msapplication-navbutton-color" content="#212121"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#212121"/>
+
+	<!-- Web Fonts 
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+	
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="/static/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="/static/css/jquery.fancybox.min.css"/>
+	<link rel="stylesheet" href="/static/css/animsition.min.css"/>
+	<link rel="stylesheet" href="/static/css/style.css"/>
+			
+	<!-- Favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+	
+	
+</head>
+<body>	
+
+	<!-- Page preloader wrap
+	================================================== -->
+
+	<div class="animsition">
+		
+		<!-- Nav and Logo
+		================================================== -->
+
+		<header class="cd-header">
+			<div class="header-wrapper">
+				<div class="logo-wrap">
+					<a href="/index/" class="cursor-link animsition-link"style="color: white"><h3>图像风格迁移</h3></a>
+				</div>
+				<div class="nav-but-wrap">
+					<div class="menu-icon cursor-link">
+{#						<span class="menu-icon__line menu-icon__line-left"></span>#}
+{#						<span class="menu-icon__line"></span>#}
+{#						<span class="menu-icon__line menu-icon__line-right"></span>#}
+					</div>					
+				</div>					
+			</div>				
+		</header>
+
+
+
+		<!-- Primary Page Layout
+		================================================== -->
+		
+{#		<div class="section big-55-height over-hide">#}
+{#	#}
+{#			<div class="parallax parallax-top" style="background-image: url('/static/img/portfolio/project/2.jpg')"></div>#}
+{#			<div class="dark-over-pages"></div>#}
+{#			#}
+{#			<div class="hero-center-section">#}
+{#				<div class="container z-bigger">#}
+{#					<div class="row">#}
+{#						<div class="col-12 section-title-wrap text-center parallax-fade-top-pages">#}
+{#							<p>advertising</p>	#}
+{#							<h1>kresios</h1>#}
+{#						</div>#}
+{#					</div>	#}
+{#				</div>	#}
+{#			</div>#}
+{#		</div>#}
+	
+		<div class="section padding-top-bottom-big over-hide background-dark-2">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-6">
+                        <div style="height: 512px;width: 512px" id="cupload-create"></div>
+					</div>
+					<div class="col-md-6 mt-4 mt-md-0">
+
+							<div class="img-wrap">
+								<img style="width: 512px;height: 512px" src="/static/img/style_images/{{ style }}.jpg" class="cursor-more" alt="">
+							</div>
+
+					</div>
+
+					<div class="section clearfix"></div>
+					<div class="col-md-8 padding-top-bottom text-center" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+						<button id="upload_button" type="button" class="btn btn-danger btn-lg"><b>生成</b></button>
+					</div>
+
+					<div class="section clearfix"></div>
+                    <div class="col-md-8 padding-top-bottom text-center" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+						<img id="result" style="width: 900px;height: 600px;margin-left: -70px" src="/static/img/portfolio/project/4.jpg" alt="image"/>
+
+					</div>
+
+
+
+
+					<div class="section clearfix padding-top"></div>
+
+				</div>	
+			</div>
+
+		</div>
+	
+
+		
+		<div class="scroll-to-top cursor-link"></div>
+	
+	<!-- Page cursor
+	================================================== -->
+	
+	<div class="cursor cursor-shadow"></div>
+	<div class="cursor cursor-dot"></div>
+
+
+	</div>
+    <script src="/static/js/jquery.min.js"></script>
+	<script src="/static/js/popper.min.js"></script>
+	<script src="/static/js/bootstrap.min.js"></script>
+	<script src="/static/js/plugins.js"></script>
+	<script src="/static/js/custom.js"></script>
+    <script src="/static/js/cupload.js"></script>
+
+	<script type="text/javascript">
+        $.ajaxSetup({
+            data:{csrfmiddlewaretoken:'{{ csrf_token }}'}
+        })
+
+		var cuploadCreate = new Cupload ({
+			ele: '#cupload-create',
+			num: 1,
+		});
+
+
+
+
+    $(function () {
+
+    upload();
+
+})
+
+     function upload() {
+    //注册按钮点击
+     $('#upload_button').click(function () {
+
+         var base64 = $(".cupload-image-preview").get(0).getAttribute('src')
+
+         $.ajax({
+             url: '/transfer/',
+             method: 'POST',
+             dataType:'json',
+             data:{'base64':base64,'style':'{{style}}'},
+             success:function (data) {
+                $('#result').attr('src',data.base64_data);
+
+              }
+         })
+     })
+ }
+
+    </script>
+	<!-- JAVASCRIPT
+    ================================================== -->
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
