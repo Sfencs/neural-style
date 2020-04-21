@@ -26,7 +26,7 @@ def transfer(request):
         file.write(image_data)
         file.close()
         style = request.POST.get('style')
-        os.system('python transfer_image.py infer --style_image_path=style_image/{style}.jpg --test_images_path=upload_content_images/content.jpg'.format(style=style))
+        os.system('python3 transfer_image.py infer --style_image_path=style_image/{style}.jpg --test_images_path=upload_content_images/content.jpg'.format(style=style))
         with open("output/content.jpg", "rb") as f:  # 转为二进制格式
             base64_data = base64.b64encode(f.read())  # 使用base64进行加密
             base64_data = 'data:image/jpeg;base64,'+str(base64_data)[2:]
